@@ -73,7 +73,7 @@ function baixar(){
     var janela = window.open("", "", "width=700, height=700");
     janela.document.write('<html> <head>')
     janela.document.write('<title>Resultado NPS - Digital College</title> </head>')
-    janela.document.write('<>')
+    janela.document.write('<body>')
     janela.document.write(`<h1>${nps_Title}</h1>`)	
     janela.document.write(`<h2>${nps_Result_number}</h2>`)
     janela.document.write(`<h2>Classificação: ${nps_result_text}</h2> <p>(Ruim: entre -100 e -1) (Razoável: entre 0 e 49) (Muito bom: entre 50 e 74) (Excelente: entre 75 e 100)</p> `)
